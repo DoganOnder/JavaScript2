@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/773958/pexels-photo-773958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940s);
+}
+
+#mainContainer {
+  margin-left: 125px;
+  margin-top: 110px;
+  padding: 10px 10px;
+  width: 80vw;
+  height: 40vh;
+}
+#quote {
+  vertical-align: center;
+  /*background-color: blue;*/
+  background-image: url(https://images.pexels.com/photos/606542/pexels-photo-606542.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+#box {
+  font-size: 40px;
+  padding: 20px 15px;
+  color: black;
+  align-content: center;
+}
+
+p {
+  padding: 20px 15px;
+  text-align: justify;
+  line-height: 3rem;
+  letter-spacing: 3px;
+}
+
+p:last-child {
+  text-align: right;
+}
+
+#button {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: left;
+}
+
+#btn {
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 22px;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: black;
+}
+
+#btn:hover {
+  cursor: pointer;
+  background-color: cadetblue;
+}
